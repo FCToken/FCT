@@ -1,0 +1,317 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #71706E;
+}
+
+
+
+body, html {
+  height: 100%;
+}
+
+.img {
+  /* The image used */
+  background-image: url("FCTLOGO.png");
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*
+.top-container {
+background-color: #71706E;
+position: relative;
+padding-top: 9.25px;
+}
+*/
+
+.Spanish {
+  color: #ffff00;
+}
+
+
+
+.English {
+  color: #39FF14;
+}
+
+
+.Link {
+  color: #08e8de;
+}
+
+
+h1 {
+  font-size: 3.625rem;
+  margin: 25px auto 0 auto;
+  font-family: 'Sacramento', fantasy;
+  line-height: .748;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+::selection {
+  color: silver;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #808080;
+  padding: 50px 0 20px;
+}
+
+p {
+  width: 35%;
+  margin: auto;
+  line-height: 2;
+}
+
+
+
+.copyright {
+  color: black;
+  font-size: 0.75rem;
+}
+
+a {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  line-height: 2em;
+  color: #08e8de;
+}
+
+a:hover {
+  color: silver;
+}
+
+
+a:visited {
+  color: green
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  p, a, .btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  p, a, .btn {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  p, a, .btn {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 400px) {
+  p, a, .btn {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 300px) {
+  p, a, .btn {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 200px) {
+  p, a, .btn {
+    font-size: 4px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 200px) {
+  h1 {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  h2 {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 200px) {
+  h2 {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 300px) {
+  h3 {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 200px) {
+  h3 {
+    font-size: 5px;
+  }
+}
